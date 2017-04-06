@@ -7,6 +7,7 @@ import {AutoGrowDirective} from './auto-grow.directive'
     template: `
               <h2>Games</h2>
               {{ title }}
+              <br>
               <input type="text" autoGrow />
               <ul>
                 <li *ngFor="#game of games">

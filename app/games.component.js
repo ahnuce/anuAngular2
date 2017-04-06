@@ -35,7 +35,7 @@ System.register(['angular2/core', './game.service', './auto-grow.directive'], fu
                 GamesComponent = __decorate([
                     core_1.Component({
                         selector: 'games',
-                        template: "\n              <h2>Games</h2>\n              {{ title }}\n              <input type=\"text\" autoGrow />\n              <ul>\n                <li *ngFor=\"#game of games\">\n                  {{ game }}\n                </li>\n              </ul>\n              ",
+                        template: "\n              <h2>Games</h2>\n              {{ title }}\n              <br>\n              <input type=\"text\" autoGrow />\n              <ul>\n                <li *ngFor=\"#game of games\">\n                  {{ game }}\n                </li>\n              </ul>\n              ",
                         //specify depenency for this component
                         providers: [game_service_1.GameService],
                         directives: [auto_grow_directive_1.AutoGrowDirective]
